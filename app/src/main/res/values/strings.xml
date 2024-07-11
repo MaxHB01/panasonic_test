@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Activity Strings -->
+    <string name="app_name">TP API</string>
+    <string name="lbl_api_sample">API Sample</string>
+    
+    <!-- API Sample Names -->
+    <string name="sample_barcode">Barcode</string>
+    <string name="sample_magstripe">Magstripe</string>
+    <string name="sample_appbutton">Buttons</string>
+    <string name="sample_ports">USB &amp; gadget</string>
+    <string name="sample_cradle">Cradle</string>
+    <string name="sample_serialport">Serial port</string>
+    <string name="sample_smart_card">Smart card</string>
+
+    <!-- Under construction detail fragment -->
+    <string name="lbl_under_construction">Under construction. Check again later!</string>
+    
+    <!-- Magstripe detail fragment -->
+    <string name="lbl_select_msr">"Select Magnetic Stripe Reader: "</string>
+    <string name="dlg_enabling_msr">Enabling Magnetic Stripe Device</string>
+    <string name="log_msr_scanned">Magnetic stripe scanned from %1$s:</string>
+    <string name="title_msr_error">Magnetic Stripe Error</string>
+    <string name="title_msr_scanned">Magnetic Stripe Scanned!</string>
+    <string name="dlg_msr_scanned">Data: %1$s</string>
+    
+    <!-- Barcode detail fragment -->
+    <string name="lbl_enabled_device">Enabled: </string>
+    <string name="lbl_disabled_device">Disabled: </string>
+    <string name="dlg_enabling_bcr">Enabling Barcode Device</string>
+    <string name="text_selectbcr">Select barcode reader: </string>
+    <string name="btn_sw_trigger">Press software trigger</string>
+    <string name="txt_battery_charge">Battery charge: </string>
+    <string name="lbl_hw_trigger">Hardware trigger</string>
+    
+    <string name="bcr_type_unknown">Unknown</string>
+    <string name="bcr_type_1d">1D</string>
+    <string name="bcr_type_2d">2D</string>
+    <string name="bcr_type_cam">Camera</string>
+    
+    <string name="lbl_charge_na">N/A</string>
+    <string name="lbl_charge_percent">%1$d%%</string>
+    
+    <string name="lbl_firmware_version">Firmware version: %1$s</string>
+    <string name="lbl_serial_number">Serial number: %1$s</string>
+    <string name="lbl_external_device">External device: %1$s</string>
+    <string name="lbl_bcr_type">Barcode type: %1$s</string>
+    
+    <string name="lbl_is_charging">Battery charging: %1$s</string>
+    <string name="lbl_is_charging_yes">Yes</string>
+    <string name="lbl_is_charging_no">No</string>
+    
+    <string name="log_bcr_scanned">Barcode scanned from %1$s (symbology: %2$s):</string>
+    <string name="title_bcr_error">Barcode Error</string>
+    <string name="title_bcr_scanned">Barcode Scanned!</string>
+    <string name="dlg_bcr_scanned">Symbology: %1$s\nEncoding: %2$s\nData: %3$s</string>
+    
+    <!-- USB & Gadget Port fragment -->
+    <string name="lbl_gadget_port">Gadget port</string>
+    <string name="lbl_micro_usb_port">Micro-USB port</string>
+    <string name="chk_selective_suspend">USB selective suspend</string>
+    <string name="chk_vbus_supply">VBUS supply</string>
+    
+    <!-- Cradle type fragment -->
+    <string name="lbl_cradle_info">(This will value will update automatically through dock/undock events)</string>
+    <string name="lbl_cradle_type">Cradle Type: </string>
+    <string name="lbl_cradle_type_none">None</string>
+    <string name="lbl_cradle_type_reg">Charging only</string>
+    <string name="lbl_cradle_type_usb">Charging w/ USB port</string>
+    <string name="lbl_cradle_type_vehicle">Vehicle</string>
+    <string name="lbl_button_desc">The buttons below will be highlighted as the buttons on the device are pressed.</string>
+    <string name="text_selectport">"Select serial port: "</string>
+    <string name="lbl_baudrate">&quot;Baud rate: &quot;</string>
+    <string name="lbl_databits">"Data bits: "</string>
+    <string name="lbl_stopbits">"Stop bits: "</string>
+    <string name="lbl_parity">"Parity: "</string>
+    <string name="lbl_flowcontrol">"Flow control: "</string>
+    <string name="lbl_input">Input</string>
+    <string name="lbl_output">Output</string>
+    <string name="btn_send">Send</string>
+    <string name="title_port_error">Serial Port Error</string>
+    
+    <!-- Button API fragment -->
+    <string name="lbl_button_service">Button API Sample</string>
+    <string name="lbl_notif_title">Button API Sample</string>
+    <string name="lbl_notif_desc">Handling buttons</string>
+    <string name="lbl_button_handling">Handling buttons</string>
+    <string name="lbl_start">START</string>
+    <string name="lbl_stop">STOP</string>
+
+    <!-- Smart card reader detail fragment -->
+    <string name="lbl_select_scr">"Select Smart Card Reader: "</string>
+    <string name="btn_start_reading">Send command</string>
+    <string name="dlg_enabling_scr">Enabling Smart card reader</string>
+    <string name="dlg_disabling_scr">Disabling Smart card reader</string>
+    <string name="lbl_reader_name">Reader name: %1$s</string>
+    <string name="lbl_device_name">Device name: %1$s</string>
+    <string name="lbl_enable_device">Enabled device: %1$s</string>
+    <string name="hint_apdu_command">APDU command</string>
+    <string name="title_scr_error">Smart Card Error</string>
+    <string name="title_warning">WARNING</string>
+    <string name="txt_apdu_response">APDU response: </string>
+    <string name="txt_atr_response">ATR value: </string>
+    <string name="title_apdu_response">APDU response</string>
+    <string name="msg_smart_card_not_available">Smart card is not available</string>
+    <string name="msg_smart_card_reader_not_found">Smart card reader is not found</string>
+    <string name="msg_apdu_command_invalid">APDU command is empty or invalid</string>
+
+    <string name="apdu_response_sw1_sw2_value_9000">9000 - Command successfully executed</string>
+    <string name="apdu_response_sw1_sw2_value_6100">6100 - SW2 indicates the number of response bytes still available.</string>
+    <string name="apdu_response_sw1_sw2_value_6200">6200 - No information given</string>
+    <string name="apdu_response_sw1_sw2_value_6281">6281 - Part of returned data may be corrupted</string>
+    <string name="apdu_response_sw1_sw2_value_6282">6292 - End of file/record reached before reading Le bytes</string>
+    <string name="apdu_response_sw1_sw2_value_6283">6283 - Selected file invalidated</string>
+    <string name="apdu_response_sw1_sw2_value_6284">6284 - Selected file is not valid. FCI not formated according to ISO</string>
+    <string name="apdu_response_sw1_sw2_value_6285">6285 - No input data available from a sensor on the card</string>
+    <string name="apdu_response_sw1_sw2_value_6286">6286 - The input data is not available from smart card</string>
+    <string name="apdu_response_sw1_sw2_value_6287">6287 - At least one of the referenced records is deactivated</string>
+    <string name="apdu_response_sw1_sw2_value_6300">6300 - No information given </string>
+    <string name="apdu_response_sw1_sw2_value_6340">6340 - Comparison failed</string>
+    <string name="apdu_response_sw1_sw2_value_6381">6381 - File filled up by the last write</string>
+    <string name="apdu_response_sw1_sw2_value_6400">6400 - No information given</string>
+    <string name="apdu_response_sw1_sw2_value_6401">6401 - Command timeout. Immediate response required by the card.</string>
+    <string name="apdu_response_sw1_sw2_value_6500">6500 - No information given</string>
+    <string name="apdu_response_sw1_sw2_value_6501">6501 - Write error. Memory failure.</string>
+    <string name="apdu_response_sw1_sw2_value_6581">6581 - Memory failure</string>
+    <string name="apdu_response_sw1_sw2_value_6600">6600 - Error while receiving (timeout)</string>
+    <string name="apdu_response_sw1_sw2_value_6700">6700 - Wrong length</string>
+    <string name="apdu_response_sw1_sw2_value_6701">6701 - APDU format commands are not standard</string>
+    <string name="apdu_response_sw1_sw2_value_6702">6702 - The Lc value is not the expected value</string>
+    <string name="apdu_response_sw1_sw2_value_6800">6800 - No information given(The request function is not supported by the card)</string>
+    <string name="apdu_response_sw1_sw2_value_6881">6881 - Logical channel not supported</string>
+    <string name="apdu_response_sw1_sw2_value_6882">6882 - Secure messaging not supported</string>
+    <string name="apdu_response_sw1_sw2_value_6900">6900 - No information given(Command not allowed)</string>
+    <string name="apdu_response_sw1_sw2_value_6981">6981 - Command incompatible with file structure</string>
+    <string name="apdu_response_sw1_sw2_value_6982">6982 - Security condition not satisfied.</string>
+    <string name="apdu_response_sw1_sw2_value_6983">6983 - Authentication method blocked</string>
+    <string name="apdu_response_sw1_sw2_value_6984">6984 - Referenced data reversibly blocked (invalidated)</string>
+    <string name="apdu_response_sw1_sw2_value_6985">6985 - Conditions of use not satisfied.</string>
+    <string name="apdu_response_sw1_sw2_value_6986">6986 - Command not allowed (no current EF)</string>
+    <string name="apdu_response_sw1_sw2_value_6987">6987 - Expected secure messaging (SM) object missing</string>
+    <string name="apdu_response_sw1_sw2_value_6988">6988 - Incorrect secure messaging (SM) data object</string>
+    <string name="apdu_response_sw1_sw2_value_6a00">6A00 - No information given (Bytes P1 and/or P2 are incorrect)</string>
+    <string name="apdu_response_sw1_sw2_value_6a80">6A80 - The parameters in the data field are incorrect.</string>
+    <string name="apdu_response_sw1_sw2_value_6a81">6A81 - Function not supported</string>
+    <string name="apdu_response_sw1_sw2_value_6a82">6A82 - File not found</string>
+    <string name="apdu_response_sw1_sw2_value_6a83">6A83 - Record not found</string>
+    <string name="apdu_response_sw1_sw2_value_6a84">6A84 - There is insufficient memory space in record or file</string>
+    <string name="apdu_response_sw1_sw2_value_6a85">6A85 - Lc inconsistent with TLV structure</string>
+    <string name="apdu_response_sw1_sw2_value_6a86">6A86 - Incorrect P1 or P2 parameter</string>
+    <string name="apdu_response_sw1_sw2_value_6a87">6A87 - Lc inconsistent with P1-P2</string>
+    <string name="apdu_response_sw1_sw2_value_6a88">6A88 - Referenced data not found</string>
+    <string name="apdu_response_sw1_sw2_value_6e00">6E00 - INS class not supported</string>
+    <string name="apdu_response_sw1_sw2_value_6d00">6D00 - Instruction code not supported or invalid</string>
+</resources>

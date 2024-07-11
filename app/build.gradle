@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdk 28
+
+    defaultConfig {
+        applicationId "com.panasonic.toughpad.android.sample"
+        minSdk 14
+        targetSdk 28
+        versionCode 3
+        versionName '1.1.1'
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            testCoverageEnabled true
+        }
+    }
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+    namespace 'com.panasonic.toughpad.android.sample'
+}
+
+dependencies {
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation files('libs/Toughpad.jar')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test:rules:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+}
